@@ -2,57 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            padding: 10px;
-            margin: 5px 0;
-            background-color: #007bff;
-            color: white;
-            border-radius: 5px;
-        }
-        li a {
-            color: white;
-            text-decoration: none;
-            display: block;
-        }
-        li a:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page gym membership website</title>
+    <link rel="stylesheet" href="welcome.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to the Fitness Center!</h1>
-        <p>Select from the options below:</p>
-        <ul>
-            <li><a href="view_sessions.php">View Personal Training Sessions</a></li>
-            <li><a href="class_schedule.php">Check Class Schedule</a></li>
-            <li><a href="booking.php">Manage Bookings</a></li>
-            <li><a href="profile.php">Update Personal Information</a></li>
-            <li><a href="payment_history.php">View Payment History</a></li>
-        </ul>
+    
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" alt="logo">
+            <ul>
+                <li><a href="/flab-u-less_fitness/view_sessions.php">PT Sessions</a></li>
+                <li><a href="/flab-u-less_fitness/class_schedule.php">Class Schedule</a></li>
+                <li><a href="/flab-u-less_fitness/booking.php">Bookings</a></li>
+                <li><a href="/flab-u-less_fitness/payment_history.php">Payment History</a></li>
+                <li><a href="/flab-u-less_fitness/profile.php">Profile</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>ACHIEVE FITNESS</h1>
+            <h3>Forge a body that you can be proud of.</h3>
+            <p></p>
+            <p>Find us on our social platforms!</p>
+            <div>
+                <button type="button"><span></span>Twitter</button>
+                <button type="button"><span></span>Instagram</button>
+                <button type="button"><span></span>Facebook</button>
+            </div>
+        </div>
     </div>
+
 </body>
 </html>
